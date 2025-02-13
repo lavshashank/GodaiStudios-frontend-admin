@@ -1,0 +1,104 @@
+/* Workshop Admin Container */
+.workshop-admin-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .workshop-admin-container h2,
+  .workshop-admin-container h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Workshop Form */
+  .workshop-form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .workshop-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    background: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: darkgreen;
+  }
+  
+  /* Workshop List */
+  .workshop-grid {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .workshop-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .workshop-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .workshop-card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .workshop-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .edit-btn {
+    background: orange;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background: darkorange;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background: darkred;
+  }
